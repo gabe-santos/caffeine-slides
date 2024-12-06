@@ -73,6 +73,10 @@ export default function Presentation() {
           <p>How can we use it effectively?</p>
         </section>
 
+        <section>
+          <h1>Disclaimer: Not a Doctor</h1>
+        </section>
+
         <section data-auto-animate>
           <h2>What even is Caffeine?</h2>
         </section>
@@ -102,6 +106,7 @@ export default function Presentation() {
         </section>
 
         <section data-transition="fade" className="">
+          <h2 className="fragment">Caffeine in Plants</h2>
           <div className="grid w-full grid-cols-3 justify-between">
             <div className="fragment flex flex-col gap-2">
               <p className="m-0 text-left text-[.5em]">Coffea Arabica</p>
