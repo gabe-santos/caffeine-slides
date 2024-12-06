@@ -39,8 +39,6 @@ export default function Presentation() {
   }, []);
 
   return (
-    // Your presentation is sized based on the width and height of
-    // our parent element. Make sure the parent is not 0-height.
     <div className="reveal" ref={deckDivRef}>
       <div className="slides">
         <section>
@@ -48,13 +46,13 @@ export default function Presentation() {
           <p>Gabe Santos</p>
         </section>
         <section data-auto-animate>
-          <h1 className="text-left">What even is Caffeine?</h1>
+          <h1 className="r-fit-text">What even is Caffeine?</h1>
         </section>
         <section
           data-auto-animate
-          className="flex border items-center justify-between w-full gap-4"
+          className="flex w-full items-center justify-between gap-4"
         >
-          <h1 className="text-left text-7xl w-full">What even is Caffeine?</h1>
+          <h1 className="w-full text-left text-7xl">What even is Caffeine?</h1>
 
           <div className="r-stack w-full">
             <Image
